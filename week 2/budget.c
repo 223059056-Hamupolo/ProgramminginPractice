@@ -13,9 +13,20 @@ int budget () {
 
 
  balance = revenue - expenses;
+ 
+  if (balance > 0)
+{
+    printf("The budget has a surplus.\n");
+}
+else if (balance < 0)
+{
+    printf("The budget has a deficit.\n");
+}
+else
+{
+    printf("The budget is balanced.\n");
+}
 
-
-//Place the if statement here to check if the balance is positive or negative
  printf("Budget balance: %.2f\n", balance);
  return 0;
 }
