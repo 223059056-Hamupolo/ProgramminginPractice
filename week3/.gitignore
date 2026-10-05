@@ -1,0 +1,15 @@
+# Compiled binaries
+*.exe
+*.out
+*.o
+
+# Compiled executables (no extension)
+salary_calculator
+exercise1
+exercise2
+exercise3
+exercise4
+exercise5
+
+# VS Code
+.vscode/
